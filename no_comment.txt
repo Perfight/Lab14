@@ -1,0 +1,17 @@
+package test;
+
+
+public class JavaDocTest {
+
+  
+  public static final String HELLO_MESSAGE = "Hello, World!";
+
+  public static void main(String... args) {
+    JavaDocTest.greetings();
+  }
+
+  
+  public static void greetings() {
+    System.out.println(HELLO_MESSAGE);
+  }
+}
